@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="my_great_app">My Great App</string>
     <string name="button">Click me!</string>
-    <string name="inputPlaceholder">user@example.com</string>
-    <string name="password">password</string>
+    <string name="sheep">sheep</string>
 </resources>

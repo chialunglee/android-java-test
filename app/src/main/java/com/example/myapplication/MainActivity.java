@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,12 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void clickFunction(View view) {
-        System.out.println("Hello world!");
-//        EditText user = (EditText) findViewById(R.id.user);
-//        EditText password = (EditText) findViewById(R.id.password);
-//        Log.i("User", user.getText().toString());
-//        Log.i("Password", password.getText().toString());
-//        Toast.makeText(this, "Hello " + user.getText().toString(), Toast.LENGTH_LONG).show();
+    public void switchPicture(View view) {
+        ImageView img = (ImageView) findViewById(R.id.sheep);
+        img.setImageResource(R.drawable.mirror);
     }
 }
